@@ -168,7 +168,7 @@ sudo vi /etc/apache2/sites-available/lampstack.conf
 
 Then paste the following configuration:
 
-```bash
+
 <VirtualHost *:80>
        ServerName lampstack
        ServerAlias www.lampstack
@@ -184,15 +184,14 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 
 
-###  List Available Apache Sites
+### List Available Apache Sites
 
 Run the following command to see all virtual host configuration files available on your server:
 
 ```bash
 sudo ls /etc/apache2/sites-available
 
-
-###  Enable Your Apache Virtual Host
+### Enable Your Apache Virtual Host
 
 Run the following commands to enable your new site, disable the default site, and test the configuration:
 
@@ -237,7 +236,7 @@ Hello LAMP from <hostname> with public IP <your-ip>
 
 ###  Prioritize PHP Files and Test PHP Configuration
 
-#### 1️⃣ Prioritize PHP Files in Apache
+1️⃣ Prioritize PHP Files in Apache
 
 Edit the `dir.conf` file to make `index.php` load before `index.html`:
 
