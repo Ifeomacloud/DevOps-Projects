@@ -1,4 +1,4 @@
-# LAMP Stack Project – StegHub DevOps Training
+# LAMP Stack Project
 
 # Introduction
 
