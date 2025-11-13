@@ -47,10 +47,10 @@ It is reliable, scalable, and cost-effective — ideal for both production and l
 chmod 400 mykey.pem
 ssh -i mykey.pem ubuntu@<Public-IP>
 
-##2️⃣ Update System Packages
+2️⃣ Update System Packages
 sudo apt update && sudo apt upgrade -y
 
-## 3️⃣ Install Apache Web Server
+3️⃣ Install Apache Web Server
 sudo apt install apache2 -y
 
 sudo systemctl status apache2
@@ -61,7 +61,7 @@ curl http://localhost:80
 # Tests if the Apache server is serving content locally via port 80.
 
 
-**Browser Check (Apache Test Page):**
+Browser Check (Apache Test Page):
 
 - 1.  **URL:** `http://<Your-Public-IP>`
 > 2.  **Example:** `http://3.238.183.168`
@@ -84,28 +84,28 @@ curl -H "X-aws-ec2-metadata-token: $TOKEN" \
 
 Run the following command to install the MySQL server package:
 
-```bash
+
 sudo apt update
 sudo apt install mysql-server -y
 
-### Access the MySQL Shell
+## Access the MySQL Shell
 
 After installing MySQL, access the MySQL command-line interface by running:
 
-```bash
+
 sudo mysql
 
-###  Secure the MySQL Installation
+## Secure the MySQL Installation
 
 Once inside the MySQL prompt, update the root user’s authentication method and set a password.
 
-```sql
+
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Password.1';
 EXIT;
 
 After exiting MySQL, run the secure installation script:
 
-```sql
+```
 sudo mysql_secure_installation
 
 ## mysql_secure_installation — Prompts & Responses
@@ -135,7 +135,7 @@ Reload privilege tables now? (Press y|Y for Yes, any other key for No): Y
 
 Run the following commands to install PHP and integrate it with Apache and MySQL:
 
-```bash
+```
 sudo apt install php libapache2-mod-php php-mysql
 # Installs PHP and required modules for Apache and MySQL integration.
 
@@ -146,7 +146,7 @@ php -v
 
 Run the following commands to create your project directory and set proper permissions:
 
-```bash
+```
 sudo mkdir /var/www/lampstack
 # Creates a project directory where web files will be served from.
 
