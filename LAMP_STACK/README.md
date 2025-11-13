@@ -34,7 +34,7 @@ To implement this project, the following were used:
 # Implementation Steps
 
 ```bash
-cd /c/Users/Downloads/mykey.pem
+cd /c/Users/ifeoma/Downloads/mykey.pem
 ```
 ```bash
 chmod 400 mykey.pem
