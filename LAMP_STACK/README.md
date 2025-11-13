@@ -115,8 +115,8 @@ MEDIUM Length >= 8, numeric, mixed case, special chars
 STRONG Length >= 8, numeric, mixed case, special chars, dictionary file
 Please enter 0 = LOW, 1 = MEDIUM, 2 = STRONG:  **1**
 
-New password:  **Chidimma123!**
-Re-enter new password:  **Chidimma123!**
+New password:  **Ifeoma_****
+Re-enter new password:  **Ifeoma_****
 
 Estimated strength of the password: 100 
 Do you wish to continue with the password provided? (Press y|Y for Yes, any other key for No):  **Y**
