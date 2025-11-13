@@ -47,7 +47,7 @@ It is reliable, scalable, and cost-effective — ideal for both production and l
 chmod 400 mykey.pem
 ssh -i mykey.pem ubuntu@<Public-IP>
 
-##  Update System Packages
+Update System Packages
 
 ```bash
 sudo apt update && sudo apt upgrade
@@ -67,11 +67,11 @@ In Browser: http://<Your-Public-IP>
 Example: http://16.170.238.160
 Expected Result: Default Apache Ubuntu landing page.
 
-### Retrieve EC2 Public IP (Securely using IMDSv2)
+Retrieve EC2 Public IP (Securely using IMDSv2)
 
 Run the following commands to retrieve your EC2 instance’s public IP address securely via **Instance Metadata Service v2 (IMDSv2):**
 
-```bash
+
 # Generate a metadata access token (valid for 6 hours)
 TOKEN=$(curl -X PUT "http://169.254.169.254/latest/api/token" \
   -H "X-aws-ec2-metadata-token-ttl-seconds:21600")
