@@ -47,10 +47,11 @@ It is reliable, scalable, and cost-effective — ideal for both production and l
 chmod 400 mykey.pem
 ssh -i mykey.pem ubuntu@<Public-IP>
 
-## **Update System Packages**
+2️⃣ Update System Packages
+sudo apt update && sudo apt upgrade -y
 
-```bash
-sudo apt update && sudo apt upgrade
+3️⃣ Install Apache Web Server
+sudo apt install apache2 -y
 
 sudo systemctl status apache2
 # Checks the status of the Apache service to confirm it is running.
