@@ -48,8 +48,9 @@ chmod 400 mykey.pem
 ssh -i mykey.pem ubuntu@<Public-IP>
 
 ## **Update System Packages**
+
+```bash
 sudo apt update && sudo apt upgrade
-# Installs Apache, the web server that handles HTTP requests and serves web pages.
 
 sudo systemctl status apache2
 # Checks the status of the Apache service to confirm it is running.
