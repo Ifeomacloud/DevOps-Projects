@@ -47,7 +47,7 @@ It is reliable, scalable, and cost-effective — ideal for both production and l
 chmod 400 mykey.pem
 ssh -i mykey.pem ubuntu@<Public-IP>
 
-Update System Packages
+## **Update System Packages**
 sudo apt update && sudo apt upgrade
 # Installs Apache, the web server that handles HTTP requests and serves web pages.
 
