@@ -61,10 +61,11 @@ curl http://localhost:80
 # Tests if the Apache server is serving content locally via port 80.
 
 
-Browser Check (Apache Test Page):
-In Browser: http://<Your-Public-IP>
-Example: http://16.170.238.160
-Expected Result: Default Apache Ubuntu landing page.
+> **Browser Check (Apache Test Page):**
+>
+> 1.  **URL:** `http://<Your-Public-IP>`
+> 2.  **Example:** `http://3.238.183.168`
+> 3.  **Expected Result:** Default Apache Ubuntu landing page.
 
 Retrieve EC2 Public IP (Securely using IMDSv2)
 
