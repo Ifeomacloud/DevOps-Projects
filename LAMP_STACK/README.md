@@ -222,7 +222,7 @@ phpinfo();
 ```
  Browser Check (PHP Info Page):
 In Browser: http://<Your-Public-IP>
-Example: http://16.170.238.160
+Example: http://3.238.182.163
 Expected Result: A PHP configuration page.
 
 
