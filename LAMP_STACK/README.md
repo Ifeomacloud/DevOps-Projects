@@ -108,7 +108,7 @@ After exiting MySQL, run the secure installation script:
 ```
 sudo mysql_secure_installation
 
-## mysql_secure_installation — Prompts & Responses
+#### mysql_secure_installation — Prompts & Responses
 
 Below is an example interactive session with `mysql_secure_installation`.  
 User inputs are shown **bold**.
