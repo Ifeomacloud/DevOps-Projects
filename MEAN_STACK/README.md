@@ -29,7 +29,8 @@ It uses:
 ### Accounts & Cloud
 - **AWS Account**
 - **EC2 Instance**: Ubuntu Server **22.04 LTS (Ubuntu 24.04 LTS)**
-![EC2 Instance](./screenshots/EC2.png)
+![EC2 Instance](![EC2 Instance](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/EC2.PNG)
+)
 
 ### Local Machine (Windows)
 - **SSH client** I used Git Bash 
