@@ -20,6 +20,10 @@ It uses:
 - `apps/models/book.js` defines the Book schema.
 - `public/` contains `index.html` and `script.js` (AngularJS app).
 
+
+### Project Folder
+![Project Foler](./screenshots/project_folder.png)
+
 ## Prerequisites
 
 ### Accounts & Cloud
@@ -436,8 +440,6 @@ Open TCP 3300 in your EC2 Security Group, then visit from your browser:
 
 http://<YOUR-EC2-PUBLIC-IP>:3300
 
-![Public Page](./screenshots/public_page_accessed.png)
-
 # Security Group (SG) Rules
 
 Minimum inbound rules to test this app:
@@ -495,6 +497,8 @@ rm -rf node_modules package-lock.json
 npm install
 ```
 
+![Public Pge](./screenshots/public_page_accessed.png)
+
 Tip:
 
 - Avoid sudo npm ... in project directories.
@@ -506,3 +510,5 @@ Tip:
 - **Cause**: Entered vi server.js inside the npm init prompt
 
 **Fix**: CTRL + C to cancel, then run npm init -y, and edit files afterward.
+
+![Public Pge](./screenshots/public_page_accessed.png)
