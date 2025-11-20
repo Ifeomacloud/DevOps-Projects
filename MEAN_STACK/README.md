@@ -22,15 +22,14 @@ It uses:
 
 
 ### Project Folder
-![Project Foler](./screenshots/project_folder.png)
+![Project Foler](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/project_folder.png)
 
 ## Prerequisites
 
 ### Accounts & Cloud
 - **AWS Account**
 - **EC2 Instance**: Ubuntu Server **22.04 LTS (Ubuntu 24.04 LTS)**
-![EC2 Instance](![EC2 Instance](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/EC2.PNG)
-)
+(![EC2 Instance](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/EC2.PNG))
 
 ### Local Machine (Windows)
 - **SSH client** I used Git Bash 
@@ -41,7 +40,9 @@ It uses:
 - **Security Group (SG)** with inbound rules:
   - `TCP 22` (SSH) from your IP (required to connect)
   - `TCP 3300` (app port) from your IP / anywhere (for public testing)
-  ![Security Group](./screenshots/SG.png)
+
+  ![Security Group](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/SG.PNG)
+
 
 ### Core Packages (Installed on EC2)
 - `curl`, `gnupg`, `dirmngr`, `apt-transport-https`, `lsb-release`, `ca-certificates`
@@ -71,7 +72,8 @@ Install base utilities used later for secure repo setup and downloads:
 sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
 ```
 
-![Base Utilities](./screenshots/base_utilities.png)
+![Base Utilities](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/base_utilities.PNG)
+
 
 # Install Node.js, npm, and MongoDB
 Node.js (from NodeSource 18.x)
@@ -80,7 +82,7 @@ Using NodeSource ensures a clean, up-to-date Node.js + npm:
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
-![Npm,Node,Mongodb installation](./screenshots/npm_node_install.png)
+![Node & NPM Installation](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/npm_node_install.PNG)
 
 
 (If needed) Ensure curl & gnupg are present
