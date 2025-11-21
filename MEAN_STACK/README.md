@@ -115,13 +115,13 @@ sudo systemctl status mongod
 ```
 Why: mongod is the daemon (service) that runs MongoDB. Using the wrong unit name (mongodb) returns “Unit not found.”
 
-![Mongodb Start](./screenshots/mongodb_start.png)
+![Mongodb Start](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/mongodb_start.PNG)
 
 Install body-parser (middleware for JSON)
 ```bash
 sudo npm install body-parser
 ```
-![npm body parser](./screenshots/npm_body_parser_installation.png)
+![npm body parser](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/npm_body_parser_installation.PNG)
 
 
 # Create the Project (Books)
@@ -425,7 +425,7 @@ Start the server:
 node server.js
 ```
 
-![node server.js run](./screenshots/node_server_js_run.png)
+![node server.js run](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/node_server_js_run.PNG)
 
 You should see:
 
@@ -500,7 +500,8 @@ rm -rf node_modules package-lock.json
 npm install
 ```
 
-![Public Pge](./screenshots/public_page_accessed.png)
+![Public Page](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/public_page_accessed.PNG)
+
 
 Tip:
 
@@ -508,10 +509,11 @@ Tip:
 
 - Typing shell commands inside npm init
 
-- **Symptom**: Sorry, name can only contain URL-friendly characters.
+**Symptom**: Sorry, name can only contain URL-friendly characters.
+  ,;
 
-- **Cause**: Entered vi server.js inside the npm init prompt
+x\ZS|  a  **Cause**: Entered vi server.js inside the npm init prompt
 
 **Fix**: CTRL + C to cancel, then run npm init -y, and edit files afterward.
 
-![Public Pge](./screenshots/public_page_accessed.png)
+![Public Page](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/public_page_accessed.PNG)
