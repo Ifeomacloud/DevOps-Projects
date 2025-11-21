@@ -1,4 +1,4 @@
-## Book Register – MEAN Stack Project (Ubuntu 22.04 on AWS EC2)
+## Deployment of a MEAN App (Book Register) on AWS EC2
 
 A step-by-step, README that documents *everything I did* to build and troubleshoot a simple MEAN-stack style app (MongoDB + Express + AngularJS + Node.js). It includes **every command**, **why each was used**, **AWS/EC2 & Security Group setup notes**, and **all fixes** I applied along the way.
 
@@ -135,7 +135,7 @@ Initialize npm:
 ```bash
 npm init
 ```
-![npm init](./screenshots/npm_init.png)
+![npm init](https://raw.githubusercontent.com/Ifeomacloud/DevOps-Projects/main/MEAN_STACK/screenshots/npm_init.PNG)
 
 Tip: If you accidentally type shell commands inside the npm init prompt (e.g., vi server.js), npm will complain about invalid package names. If that happens, hit CTRL + C and re-run npm init -y.
 
@@ -510,9 +510,9 @@ Tip:
 - Typing shell commands inside npm init
 
 **Symptom**: Sorry, name can only contain URL-friendly characters.
-  ,;
+  
 
-x\ZS|  a  **Cause**: Entered vi server.js inside the npm init prompt
+**Cause**: Entered vi server.js inside the npm init prompt
 
 **Fix**: CTRL + C to cancel, then run npm init -y, and edit files afterward.
 
