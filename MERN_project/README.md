@@ -122,14 +122,14 @@ Reason: Starts a simple Express server on port 5000.
 
 7. Open Port in AWS Security Group
 
-Go to AWS Console → EC2 → Security Groups.
+- Go to AWS Console → EC2 → Security Groups.
 
-Add inbound rule: Custom TCP, Port 5000, Source 0.0.0.0/0
+- Add inbound rule: Custom TCP, Port 5000, Source 0.0.0.0/0
 
-Reason: Allows external access to the server on port 5000.
+**Reason**: Allows external access to the server on port 5000.
  Test on your browser: http://3.82.128.66:5000/
 
- 8. Create Routes
+8. Create Routes
 
  ```bash
 mkdir routes
@@ -232,26 +232,26 @@ Create Cluster
 
 # Sign up at MongoDB Atlas.
 
-Create a free M0 cluster → select AWS as provider.
+- Create a free M0 cluster → select AWS as provider.
 
-Choose a region near your EC2 (e.g., eu-north-1 Stockholm).
+- Choose a region near your EC2 (e.g., eu-north-1 Stockholm).
 
 # Create DB User
 
-Username: todo_user
+- Username: todo_user
 
-Password: todo123456
+- Password: todo123456
 
-Role: Read/Write
+- Role: Read/Write
 
-Reason: This is the user your Node app will use to connect.
+**Reason**: This is the user your Node app will use to connect.
 
 ## Configure Network Access
 
 Go to Network Access → Add IP Address → 0.0.0.0/0
-Reason: Allow access from anywhere (for testing). Later, restrict to EC2 public IP.
+**Reason**: Allow access from anywhere (for testing). Later, restrict to EC2 public IP.
 
-Get Connection URI
+**Get Connection URI**
 
 In Atlas → Connect → Connect your application.
 Example URI:
@@ -430,11 +430,11 @@ Run both:
 ```bash
 npm run dev
 ```
-Reason: Launches your backend and frontend together.
+**Reason**: Launches your backend and frontend together.
 
-The React app typically opens at http://localhost:3000.
+- The React app typically opens at http://localhost:3000.
 
-To access from the internet, open TCP 3000 in your EC2 Security Group (my-SG).
+- To access from the internet, open TCP 3000 in your EC2 Security Group (my-SG).
 
 15) Build React components
 
@@ -752,13 +752,13 @@ Open in your browser:
 http://13.51.157.36:3000/
 
 
-Reason: Shows the React app, which talks to your Express API, which stores data in MongoDB Atlas.
+**Reason**: Shows the React app, which talks to your Express API, which stores data in MongoDB Atlas.
 
 
-Backend (Express) → http://3.82.128.66:5000/api/todos
+- Backend (Express) → http://3.82.128.66:5000/api/todos
 
-Frontend (React) → http://3.82.128.66:3000
+- Frontend (React) → http://3.82.128.66:3000
 
-Database (MongoDB Atlas) → stores your todos in then:
+- Database (MongoDB Atlas) → stores your todos in then:
 
 
