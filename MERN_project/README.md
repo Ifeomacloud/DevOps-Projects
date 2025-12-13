@@ -248,10 +248,10 @@ Create Cluster
 
 ## Configure Network Access
 
-Go to Network Access → Add IP Address → 0.0.0.0/0
+- Go to Network Access → Add IP Address → 0.0.0.0/0
 **Reason**: Allow access from anywhere (for testing). Later, restrict to EC2 public IP.
 
-**Get Connection URI**
+- Get Connection URI
 
 In Atlas → Connect → Connect your application.
 Example URI:
