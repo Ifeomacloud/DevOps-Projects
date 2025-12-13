@@ -256,7 +256,7 @@ Create Cluster
 In Atlas → Connect → Connect your application.
 Example URI:
 ```bash
-mongodb+srv://todo_user:todo123456@todo-cluster.1pggpkn.mongodb.net/todoDB?retryWrites=true&w=majority&appName=Todo-Cluster
+mongodb+srv://todo_user:<db_password>@todo-cluster.1pggpkn.mongodb.net/todoDB?retryWrites=true&w=majority&appName=Todo-Cluster
 ```
 
 # Create the environment file for MongoDB Atlas
@@ -268,7 +268,7 @@ vi .env
 Paste:
 
 ```bash
-DB=mongodb+srv://todo_user:todo123456@todo-cluster.1pggpkn.mongodb.net/todoDB?retryWrites=true&w=majority&appName=Todo-Cluster
+DB=mongodb+srv://todo_user:<db_password>@todo-cluster.1pggpkn.mongodb.net/todoDB?retryWrites=true&w=majority&appName=Todo-Cluster
 ```
 
 **Reason**: Keeps secrets out of source code.
