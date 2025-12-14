@@ -38,7 +38,6 @@ Todo/
             ├── Input.js
             ├── ListTodo.js
             └── Todo.js
-...
 
 ## Steps to Deploy
 
