@@ -17,6 +17,29 @@ React.js (Frontend) → displays the app in the browser
 . Port 3000 → React frontend
 . Port 5000 → Express backend
 
+## Project Structure
+
+```bash
+Todo/
+├── .env
+├── index.js
+├── package.json
+├── models/
+│   └── todo.js
+├── routes/
+│   └── api.js
+└── client/
+    ├── package.json
+    └── src/
+        ├── App.css
+        ├── App.js
+        ├── index.css
+        └── components/
+            ├── Input.js
+            ├── ListTodo.js
+            └── Todo.js
+...
+
 ## Steps to Deploy
 
 1. Connect to AWS EC2 Instance
