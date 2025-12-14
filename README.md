@@ -13,7 +13,7 @@ This repository is a living portfolio documenting my learning, experimentation, 
 
 # Projects Included
 
-Here are some of my notable projects:
+Here are some of my other notable projects:
 
 1. **[Self-Hosted Runner](https://github.com/Ifeomacloud/self-hosted_runner.git)**  
    Automating GitHub Actions workflows using self-hosted runners for faster, controlled CI/CD pipelines.
@@ -29,6 +29,8 @@ Here are some of my notable projects:
 
 5. **[MERN Stack Docker Compose](https://github.com/Ifeomacloud/MERN-STACK-docker-compose.git)**  
    Full-stack MERN application deployed with Docker Compose for containerized, reproducible environments.
+
+6. **[resume-site](https://github.com/Ifeomacloud/resume-site.git)**  Demo resume website with CI/CD using GitHub Actions, Docker, and Docker Compose.  
 
 # Tools & Technologies
 
