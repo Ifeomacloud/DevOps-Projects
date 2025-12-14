@@ -762,3 +762,8 @@ http://13.51.157.36:3000/
 - Database (MongoDB Atlas) → stores your todos in then:
 
 
+```bash
+Todo/
+├── .env
+├── index.js
+...
