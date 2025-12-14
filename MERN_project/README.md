@@ -40,6 +40,73 @@ Todo/
             └── Todo.js
 ```
 
+
+---
+
+## Backend (Node.js + Express + MongoDB)
+
+### `.env`
+Stores environment variables such as:
+- MongoDB connection string
+- Server port
+
+
+### `index.js`
+- Entry point of the backend server
+- Initializes Express
+- Connects to MongoDB
+- Sets up middleware and API routes
+
+### `package.json`
+- Contains backend dependencies
+- Scripts to run the server
+
+### `models/todo.js`
+- Defines the **Todo schema**
+- Handles data structure for todos stored in MongoDB
+
+### `routes/api.js`
+- Contains API routes for Todo operations
+- Handles CRUD functionality:
+  - Create todo
+  - Read todos
+  - Update todo
+  - Delete todo
+
+---
+
+## Frontend (React)
+
+### `client/package.json`
+- Contains frontend dependencies
+- Scripts to run the React app
+
+### `client/src/App.js`
+- Main React component
+- Manages application layout and state
+
+### `client/src/App.css`
+- Styles for the main App component
+
+### `client/src/index.css`
+- Global styles for the React application
+
+---
+
+## Components
+
+### `components/Input.js`
+- Input field for adding new todos
+
+### `components/ListTodo.js`
+- Displays the list of all todos
+
+### `components/Todo.js`
+- Individual todo item component
+- Handles update and delete actions
+
+---
+
 ## Steps to Deploy
 
 1. Connect to AWS EC2 Instance
