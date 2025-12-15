@@ -30,7 +30,9 @@ Here are some of my other notable projects:
 5. **[MERN Stack Docker Compose](https://github.com/Ifeomacloud/MERN-STACK-docker-compose.git)**  
    Full-stack MERN application deployed with Docker Compose for containerized, reproducible environments.
 
-6. **[resume-site](https://github.com/Ifeomacloud/resume-site.git)**  Demo resume website with CI/CD using GitHub Actions, Docker, and Docker Compose.  
+6. **[resume-site](https://github.com/Ifeomacloud/resume-site.git)**  Demo resume website with CI/CD using GitHub Actions, Docker, and Docker Compose.
+
+7. **[Infrastructure Deployment](https://github.com/Ifeomacloud/terraform_deploy.git)**  This repository provides a comprehensive and automated framework for Infrastructure as Code (IaC), leveraging the strengths of Terraform.
 
 # Tools & Technologies
 
